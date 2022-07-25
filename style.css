@@ -1,0 +1,19 @@
+.btn-warning:hover
+{
+    background-color: cyan ;
+}
+
+canvas{
+    animation-name:rookie;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes rookie{
+    0%{box-shadow: 1px 1px 40px purple;}
+    25%{box-shadow: 1px 1px 40px pink;}
+    50%{box-shadow: 1px 1px 40px red;}
+    75%{box-shadow: 1px 1px 40px orange;}
+    100%{box-shadow: 1px 1px 40px yellow;}
+
+}
